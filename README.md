@@ -38,12 +38,12 @@ The `main.py` script allows you to:
 
 ## 🛠️ Command-Line Arguments
 
-| Argument      | Description                                                                         |
-|---------------|-------------------------------------------------------------------------------------|
-| `--file`      | \*\*Path to the CSV file\*\* (required).                                            |
-| `--where`     | \*\*Filtering condition\*\*, for example: \`rating>4.5\`.                           |
-| `--aggregate` | \*\*Aggregation on a column\*\*, e.g.: \`price=avg\`, \`price=max\`, \`price=min\`. |
-| `--order-by`  | \*\*Sorting by column\*\*, e.g.: \`price=asc\` or \`price=desc\`.                   |
+| Argument      | Description                                                             |
+|---------------|-------------------------------------------------------------------------|
+| `--file`      | Path to the CSV file (required).                                        |
+| `--where`     | Filtering condition, for example: `rating>4.5`.                         |
+| `--aggregate` | Aggregation on a column, e.g.: `price=avg`, `price=max`, `price=min`.   |
+| `--order-by`  | Sorting by column, e.g.: `price=asc` or `price=desc`.                   |
 
 ### ✅  Running Tests
 Tests are written using pytest:
